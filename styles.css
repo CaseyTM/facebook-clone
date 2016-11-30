@@ -46,6 +46,7 @@ background-image: url("fb_sprite.png");
 background-size: 26px 905px;
 height: 24px;
 width: 24px;
+margin-left: 5px;
 
 }
 .friends{
@@ -59,4 +60,17 @@ background-position: 0 -338px;
 .notifications{
 background-position: 0 -238px;
 
+}
+.lock{
+background-position: 0 -859px;
+height: 16px;
+margin-left: 10px;
+}
+.down-arrow{
+background-position: 0 -825px;
+height: 16px;
+}
+.spacer{
+	line-height: 24px;
+	margin: 0 10px;
 }
