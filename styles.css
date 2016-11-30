@@ -1,0 +1,62 @@
+img{
+	max-width: 100%;
+}
+#facebook-wrapper{
+	/* if we need whole page styles */
+}
+#header{
+background-color: #3b5998;
+overflow: hidden;
+width: 100%;
+}
+#left-header{
+
+}
+#fb-logo{
+	height: 24px;
+	width: 24px;
+	background-image: url("fb_sprite.png");
+	background-position: 0 -163px;
+	background-size: 26px 905px;
+}
+#fb-logo, #fb-search{
+	float: left;
+	margin-left: 10px;
+}
+#fb-search input{
+	border-radius: 5px;
+	width: 200px;
+}
+#header-inner{
+	max-width: 900px;
+	margin: auto;
+}
+#small-avatar{
+	height: 24px;
+	width: 24px;
+}
+#right-header{
+	float: right;
+}
+#right-header div{
+	float: left;
+}
+.social-icon{
+background-image: url("fb_sprite.png");
+background-size: 26px 905px;
+height: 24px;
+width: 24px;
+
+}
+.friends{
+background-position: 0 -188px;
+
+}
+.messages{
+background-position: 0 -338px;
+
+}
+.notifications{
+background-position: 0 -238px;
+
+}
