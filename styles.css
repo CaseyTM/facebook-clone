@@ -74,3 +74,49 @@ height: 16px;
 	line-height: 24px;
 	margin: 0 10px;
 }
+#cover-photo-wrapper{
+	max-width: 900px;
+	margin: auto;
+	width: 100%;
+}
+#big-photo{
+max-height: 350px;
+overflow: hidden;
+
+}
+#big-photo img{
+width: 100%;
+position: relative;
+z-index: 1;
+
+}
+#big-avatar{
+	float: left;
+	height: 168px;
+	width: 168px;
+	position: relative;
+	z-index: 2
+}
+#avatar-name{
+	float: left;
+	position: relative;
+	z-index: 2;
+
+}
+#cover-buttons{
+	float: right;
+}
+#cover-menu{
+	float: left;
+}
+.cover-menu-item{
+	float: left;
+}
+#cover-photo-lower{
+	margin-top: -160px;
+	float: left;
+	margin-left: 20px;
+}
+#cover-photo-right{
+	z-index: 1;
+}
